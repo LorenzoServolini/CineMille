@@ -1,0 +1,64 @@
+.banner {
+  width: 100%;
+  max-width: 1148px;
+  padding: 2rem;
+  display: flex;
+  gap: 4rem;
+  border-top: 0.5px solid #292929;
+}
+.banner .banner-img {
+  width: 15%;
+}
+.banner .banner-img img {
+  width: 100%;
+  box-shadow: 0 0 10px 1px hsla(0, 0%, 39%, 0.6);
+  transition: 0.5s ease-in-out;
+}
+.banner .banner-img img:hover {
+  box-shadow: 0 0 15px 1px hsla(0, 0%, 39%, 0.6);
+}
+.banner .banner-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.banner .banner-info span {
+  color: #777;
+}
+.banner .banner-info h2 {
+  margin-bottom: 1rem;
+}
+.banner .banner-info .banner-other {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-top: 0.5px solid #292929;
+}
+.banner .banner-info .banner-other p {
+  margin-top: 1rem;
+}
+.banner .banner-info .banner-other button {
+  width: 100px;
+  padding: 1rem;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.banner .banner-info .banner-other button:hover {
+  box-shadow: 0 0 6px 1px hsla(0, 0%, 39%, 0.6);
+}
+
+/* Schermi piccoli */
+@media screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .banner .banner-img {
+    width: 50%;
+  }
+} 

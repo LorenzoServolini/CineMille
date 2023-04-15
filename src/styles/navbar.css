@@ -1,0 +1,38 @@
+nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4rem;
+   padding: 10px;
+}
+nav .logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+nav .logo h1 {
+   font-size: 2rem;
+}
+nav ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+/* Schermi piccoli */
+@media (max-width: 768px) {
+   nav {
+     flex-wrap: wrap;
+     gap: 0;
+  }
+   nav .logo {
+     justify-content: center;
+     width: 100%;
+     margin-bottom: 1rem;
+  }
+   nav ul {
+     justify-content: space-around;
+     width: 100%;
+  }
+}
