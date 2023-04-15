@@ -14,45 +14,14 @@ Lo stile è stato sviluppato a mano utilizzando soltanto CSS.
 
 ## 🎯 Installazione
 
-> Prima di cominciare: se non si possiedono gli strumenti elencati di seguito e si intende scaricarli **solo** per provare il prototipo, è consigliabile usare una macchina virtuale (ad esempio [Virtual Box](https://www.virtualbox.org/)) al fine di non sporcare il proprio sistema operativo (solo Node.js richiede più di 3GB considerato l'elevato numero di dipendenze).
+Prima di cominciare: se non si possiedono gli strumenti elencati di seguito e si intende scaricarli **solo** per provare il prototipo, è consigliabile usare una macchina virtuale (ad esempio [Virtual Box](https://www.virtualbox.org/)) al fine di non sporcare il proprio sistema operativo (solo Node.js richiede più di 3GB considerato l'elevato numero di dipendenze).
 
-Per usare l'applicazione, clonare la repository:
+1. Per usare l'applicazione, clonare la repository (`git clone https://github.com/LorenzoServolini/CineMille.git`) o scaricarla manualmente.
+2. Installare npm, contenuto nel pacchetto di Node.js: https://nodejs.org/it. Aggiornarlo all'ultima versione: `npm install -g npm`.
+3. Installare le dipendenze del prototipo: `npm install`.
+4. Registrarsi su [TMDB](https://www.themoviedb.org/) e successivamente creare una chiave per l'accesso alle API dal proprio account personale: https://www.themoviedb.org/settings/api.
+5. Creare un file `.env` dove inserire la chiave appena creata per le api di TMDB:
 ```
-
-git clone https://github.com/LorenzoServolini/CineMille.git
-
-```
-(o scaricarla manualmente)
-
-
-Installare npm, contenuto nel pacchetto di Node.js: https://nodejs.org/it.
-
-Aggiornare npm all'ultima versione:
-```
-
-npm install -g npm
-
-```
-
-Installare le dipendenze del prototipo:
-```
-
-npm install
-
-```
-
-Registrarsi su [TMDB](https://www.themoviedb.org/) e successivamente creare una chiave per l'accesso alle API dal proprio account personale: https://www.themoviedb.org/settings/api.
-
-Creare un file `.env` dove inserire la chiave appena creata per le api di TMDB:
-```
-
 VITE_API_KEY=<CHIAVE>
-
 ```
-
-Avviare un server web locale con l'applicazione in esecuzione:
-```
-
-npm run preview
-
-```
+6. Avviare un server web locale con l'applicazione in esecuzione: `npm run preview`.
