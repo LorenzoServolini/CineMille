@@ -9,8 +9,16 @@ L'applicazione è stata sviluppata per una challenge organizzata da [Lascaux](ht
 
 ## 💻 Tecnologie
 
-Per la realizzazione del progetto è stato utilizzato [npm](https://docs.npmjs.com/about-npm), [Vite](https://vitejs.dev/) e la libreria [React](https://react.dev/).
-Lo stile è stato sviluppato a mano utilizzando soltanto CSS.
+Per la realizzazione del progetto sono state utilizzate:
+- [npm](https://docs.npmjs.com/about-npm), un package-manager per JavaScript;
+- [Vite](https://vitejs.dev/), build tool per lo sviluppo di applicazioni web;
+- la libreria [React](https://react.dev/), che permette la realizzazione di UI in modo semplice ed efficiente.
+
+Lo stile è stato sviluppato a mano utilizzando soltanto CSS. <br>
+
+Risorse utili: <br>
+- [Postman](https://www.postman.com/) → Strumento semplicissimo per la creazione di richieste HTTP e per il testing delle API
+
 
 ## 🎯 Installazione
 
@@ -25,3 +33,12 @@ Prima di cominciare: se non si possiedono gli strumenti elencati di seguito e si
 VITE_API_KEY=<CHIAVE>
 ```
 6. Avviare un server web locale con l'applicazione in esecuzione: `npm run preview`.
+
+
+## ⌛ Sviluppi futuri
+- Miglioramento dell’aspetto grafico
+- Scalabilità/ridimensionamento dell'applicazione su schermi piccoli
+- Uso del file [`.npm-init.js`](https://docs.npmjs.com/creating-a-package-json-file) (tramite `npm init`) per porre domande personalizzate che permettono di _adattare_ l'applicazione alle varie esigenze (esempio: 'In che lingua devono essere mostrate le descrizioni dei film?')
+
+## 💪 Extra
+È possibile generare un sito web statico (e avviare un server web locale che lo esegua) lanciando il comando `npm build`.
