@@ -1,0 +1,24 @@
+{
+  "name": "cinemille_lascaux",
+  "description" : "Sito web di un cinema fittizio che usa le informazioni prelevate tramite le API da TMDB per mostrare le informazioni sui film disponibili nelle sale",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "keywords" : ["Cinema website", "TMDB API"],
+  "bugs": {
+    "url": "https://github.com/LorenzoServolini/CineMille/issues"
+  },
+  "scripts": {
+    "preview": "echo Creazione server web locale... && vite",
+    "build": "echo Costruzione sito web statico e avvio server web locale... && vite build && vite preview --clearScreen",
+    "test": "echo Errore: nessun test specificato && exit 1"
+  },
+  "dependencies": {
+    "sass": "1.62.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.10.0",
+    "@vitejs/plugin-react": "3.1.0",
+    "vite": "4.2.1"
+  }
+}

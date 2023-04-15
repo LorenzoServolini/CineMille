@@ -1,0 +1,8 @@
+# Cartella contenente le dipendenze del sito web
+node_modules
+
+# Cartella contenente il sito web statico generato
+dist
+
+# File contenente la chiave personale per l'accesso alle API di TMDB
+.env
